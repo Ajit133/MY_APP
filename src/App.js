@@ -1,10 +1,12 @@
 import React from "react";
-import Clock from "./components/Clock";
+// import ClockList from "./components/ClockList";
+import Form from "./components/Form";
 function App() {
+  // const quentites = [1,2,3];
   return (
-    <div className="App">
-      <Clock cale="bn-BD" />
-      
+    <div >
+     <Form />
+      {/* <ClockList quentites={quentites} /> */}
     </div>
   );
 }
